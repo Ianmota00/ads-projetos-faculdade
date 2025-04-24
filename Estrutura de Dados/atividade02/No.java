@@ -1,4 +1,4 @@
-package atividade;
+package atividade02;
 
 public class No {
  private No anterior = null;

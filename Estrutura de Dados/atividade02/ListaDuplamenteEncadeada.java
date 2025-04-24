@@ -1,4 +1,4 @@
-package atividade;
+package atividade02;
 
 public class ListaDuplamenteEncadeada {
    private No inicio = null;
