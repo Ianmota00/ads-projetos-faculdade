@@ -9,7 +9,7 @@ Funcionalidades
 - Exibição da lista final com os 7 alunos.
 
 Execução
-(print3.jpeg)
+![Execução do programa](print3.jpeg)
 
 Tecnologias
 - Java

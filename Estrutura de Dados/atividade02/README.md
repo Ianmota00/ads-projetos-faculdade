@@ -8,7 +8,7 @@ Funcionalidades
 - Criação de uma lista com nomes em comum.
 
  Execução
-(print.jpeg)
+![Execução do programa](print.jpeg)
 
 Tecnologias
 - Java

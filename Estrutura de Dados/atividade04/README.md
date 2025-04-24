@@ -13,7 +13,7 @@ Funcionalidades
   - e) Listar todos os elementos da lista.
 
 Execução
-(print4.jpg)
+![Execução do programa](print4.jpg)
 
 Tecnologias
 - Java
