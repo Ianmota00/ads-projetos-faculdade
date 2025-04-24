@@ -1,0 +1,43 @@
+package atividade04;
+
+
+public class ListaDuplamenteEncadeada {
+    private No inicio;
+    private No fim;
+    private int tamanho = 0;
+
+    public void inserirInicio(int valor) {
+        No novo = new No(valor);
+        if (inicio == null) {
+            inicio = fim = novo;
+        } else {
+            novo.setProximo(inicio);
+            inicio.setAnterior(novo);
+            inicio = novo;
+        }
+        tamanho++;
+    }
+
+    public void inserirFim(int valor) {
+        No novo = new No(valor);
+        if (fim == null) {
+            inicio = fim = novo;
+        } else {
+            fim.setProximo(novo);
+            novo.setAnterior(fim);
+            fim = novo;
+        }
+        tamanho++;
+    }
+
+    public void removerInicio() {
+        if (inicio == null) {
+            System.out.println("Lista vazia.");
+            return;
+        }
+        inicio = inicio.getProximo();
+    }
+}
+
+
+

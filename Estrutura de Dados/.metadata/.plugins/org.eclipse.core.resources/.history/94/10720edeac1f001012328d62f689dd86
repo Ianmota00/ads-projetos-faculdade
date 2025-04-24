@@ -1,0 +1,28 @@
+package atividade03;
+
+
+	public class Main {
+	    public static void main(String[] args) {
+	        ListaDuplamenteEncadeada lista = new ListaDuplamenteEncadeada();
+
+	        // Cadastrando 5 alunos
+	        lista.inserirFim(new Aluno("Ana", 18));
+	        lista.inserirFim(new Aluno("Bruno", 19));
+	        lista.inserirFim(new Aluno("Clara", 20));
+	        lista.inserirFim(new Aluno("Daniel", 21));
+	        lista.inserirFim(new Aluno("Eva", 22));
+
+	        // Inserindo 1 no início
+	        lista.inserirInicio(new Aluno("Fernanda", 23));
+
+	        // Inserindo 1 no fim
+	        lista.inserirFim(new Aluno("Gabriel", 24));
+
+	        // Exibindo lista com 7 alunos
+	        lista.exibirLista();
+	    }
+	}
+
+	
+
+

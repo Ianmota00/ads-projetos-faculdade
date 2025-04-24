@@ -1,0 +1,8 @@
+package atividade03;
+
+public class Aluno {
+	private int nome;
+	private int idade;
+	
+
+}

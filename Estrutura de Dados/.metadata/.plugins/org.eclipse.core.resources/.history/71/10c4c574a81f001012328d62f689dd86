@@ -1,0 +1,13 @@
+package atividade03;
+
+public class Aluno {
+	private int aluno;
+	  private int idade;
+	public int getAluno() {
+		return aluno;
+	}
+	public void setAluno(int aluno) {
+		this.aluno = aluno;
+	}
+
+}
