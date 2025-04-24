@@ -1,0 +1,41 @@
+package atividade03;
+
+public class ListaDuplamenteEncadeada {
+    private No inicio = null;
+    private No fim = null;
+    private int tamanho = 0;
+
+    public void inserirInicio(Aluno aluno) {
+        No novoNo = new No(aluno);
+        if (tamanho == 0) {
+            inicio = fim = novoNo;
+        } else {
+            novoNo.setProximo(inicio);
+            inicio.setAnterior(novoNo);
+            inicio = novoNo;
+        }
+    }
+
+    public void inserirFim(Aluno aluno) {
+        No novoNo = new No(aluno);
+        if (tamanho == 0) {
+            inicio = fim = novoNo;
+        } else {
+            fim.setProximo(novoNo);
+            novoNo.setAnterior(fim);
+            fim = novoNo;
+        }
+    }
+
+    public void exibirLista() {
+        No atual = inicio;
+        if (tamanho != 0) {
+            System.out.println("Lista vazia.");
+        } else {
+            while (atual != null) {
+                System.out.println(atual.getAluno());
+                atual = atual.getProximo();
+            }
+        }
+    }
+}

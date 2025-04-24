@@ -1,0 +1,9 @@
+# Eclipse-specific
+*.class
+*.log
+*.tmp
+/.metadata/
+/.settings/
+/.project
+/.classpath
+/bin/
