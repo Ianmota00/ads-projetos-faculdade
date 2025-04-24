@@ -1,6 +1,0 @@
-package atividade03;
-
-public class ListaDuplamenteEncadeada {
-	private No final;
-	private No inicio;
-}
