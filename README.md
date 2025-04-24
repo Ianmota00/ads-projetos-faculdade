@@ -5,7 +5,7 @@ Este repositório contém exercícios e mini-projetos desenvolvidos ao longo do 
 ## 📚 Disciplinas
 
 - [Programação Orientada a Objetos (Java)]
-- [Estrutura de Dados]
+- [Estrutura de Dados] (./Estrutura%20de%20Dados/)
 - [Sistemas Operacionais]
 
 
