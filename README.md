@@ -1,1 +1,12 @@
-# ads-projetos-faculdade
+# Projetos da Faculdade - ADS
+
+Este repositório contém exercícios e mini-projetos desenvolvidos ao longo do curso de Análise e Desenvolvimento de Sistemas.
+
+## 📚 Disciplinas
+
+- [Programação Orientada a Objetos (Java)]
+- [Estrutura de Dados]
+- [Sistemas Operacionais]
+
+
+Cada pasta contém os arquivos e códigos organizados por temas e aulas.
